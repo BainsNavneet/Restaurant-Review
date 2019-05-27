@@ -1,0 +1,25 @@
+@media screen and (min-width: 900px) {
+
+  #restaurants-list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+} 
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #restaurants-list li {
+    flex: 1 1 100%;
+  }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #restaurants-list li {
+      flex-grow: 1;
+    }
+  }
